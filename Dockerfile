@@ -1,6 +1,6 @@
 FROM ubuntu:20.04 as base
 
-# MongoDB download URL
+# MongoDB download URL (available versions: https://www.mongodb.org/dl/linux)
 ARG DB_URL=http://downloads.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2004-4.4.9.tgz
 
 RUN apt-get update && \
